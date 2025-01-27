@@ -92,6 +92,12 @@ The Financial QA Bot is a Streamlit-based interactive web application designed t
    - Install Python (3.8 or higher).  
    - Install required libraries using the command:  
      pip install streamlit pandas pdfplumber sentence-transformers faiss-cpu langchain
+     
+2. **Hugging Face API Token**  
+   - Create an account on [Hugging Face](https://huggingface.co/) and generate an API token.  
+   - Set the token as an environment variable:  
+     ```python
+     os.environ["HUGGINGFACEHUB_API_TOKEN"] = "<your_huggingface_api_token>"
 
 3. **Run the Application**  
    - Save the provided code into a Python file (e.g., `financial_qa_bot_part2.py`).  
