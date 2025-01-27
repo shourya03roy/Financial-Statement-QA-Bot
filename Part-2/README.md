@@ -1,4 +1,4 @@
-### Documentation for Financial QA Bot Application  
+# Documentation for Financial QA Bot Application  
 
 ---
 
